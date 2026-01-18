@@ -35,13 +35,15 @@
             border: none;
             border-top: 1px solid #ddd;
         }
+        .faq-item {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
 
 <h1>Support / 支持 / 支援 / サポート</h1>
 
-<!-- ================= English ================= -->
 <h2>English</h2>
 
 <p>Thank you for using My Fitness Recap! We're here to help with any issues or questions.</p>
@@ -54,15 +56,23 @@
 
 <h3>❓ Frequently Asked Questions</h3>
 
-<p><strong>Is my data private?</strong><br>
-Yes. All fitness data stays on your device and is not shared with third parties, unless you choose to share your Year in Review on social media.</p>
+<div class="faq-item">
+    <p><strong>Why is the steps complication not updating in real-time?</strong><br>
+    Apple Watch complications are designed to balance performance and battery life. Apple explicitly states: <em>“Complications are not intended for real-time data.”</em> As a result, step counts refresh periodically throughout the day rather than with every individual step. Opening the app will always force an immediate refresh of the data.</p>
+</div>
 
-<p><strong>How does step tracking work?</strong><br>
-The app reads step data from Apple Health. Please ensure Health permissions are enabled. For continuous step tracking, do not force-close the app, as iOS may pause background updates.</p>
+<div class="faq-item">
+    <p><strong>Is my data private?</strong><br>
+    Yes. All fitness data stays on your device and is not shared with third parties, unless you choose to share your Year in Review on social media.</p>
+</div>
+
+<div class="faq-item">
+    <p><strong>How does step tracking work?</strong><br>
+    The app reads step data from Apple Health. Please ensure Health permissions are enabled. For continuous step tracking, do not force-close the app, as iOS may pause background updates.</p>
+</div>
 
 <hr>
 
-<!-- ================= 简体中文 ================= -->
 <h2>简体中文</h2>
 
 <p>感谢你使用 My Fitness Recap！如有任何问题或疑问，我们很乐意帮助你。</p>
@@ -75,15 +85,23 @@ The app reads step data from Apple Health. Please ensure Health permissions are 
 
 <h3>❓ 常见问题</h3>
 
-<p><strong>我的数据安全吗？</strong><br>
-是的。所有健身数据都只保存在你的设备中，不会与第三方共享，除非你主动将年度回顾分享到社交媒体。</p>
+<div class="faq-item">
+    <p><strong>为什么步数表盘组件不是实时更新的？</strong><br>
+    Apple Watch 的表盘组件旨在平衡性能和电池续航。Apple 明确表示：<em>“表盘组件并非为实时数据而设计。”</em> 因此，步数会在全天定期刷新，而不是每走一步就更新一次。打开应用会强制立即刷新数据。</p>
+</div>
 
-<p><strong>步数追踪是如何工作的？</strong><br>
-本应用通过 Apple 健康读取步数数据。请确保已授予健康数据访问权限。为了持续追踪步数目标，请不要强制关闭应用，否则 iOS 可能会暂停后台更新。</p>
+<div class="faq-item">
+    <p><strong>我的数据安全吗？</strong><br>
+    是的。所有健身数据都只保存在你的设备中，不会与第三方共享，除非你主动将年度回顾分享到社交媒体。</p>
+</div>
+
+<div class="faq-item">
+    <p><strong>步数追踪是如何工作的？</strong><br>
+    本应用通过 Apple 健康读取步数数据。请确保已授予健康数据访问权限。为了持续追踪步数目标，请不要强制关闭应用，否则 iOS 可能会暂停后台更新。</p>
+</div>
 
 <hr>
 
-<!-- ================= 繁體中文 ================= -->
 <h2>繁體中文</h2>
 
 <p>感謝你使用 My Fitness Recap！若有任何問題，我們隨時為你提供協助。</p>
@@ -96,15 +114,23 @@ The app reads step data from Apple Health. Please ensure Health permissions are 
 
 <h3>❓ 常見問題</h3>
 
-<p><strong>我的資料是安全的嗎？</strong><br>
-是的。所有健身資料僅保存在你的裝置中，不會與第三方分享，除非你選擇將年度回顧分享到社群媒體。</p>
+<div class="faq-item">
+    <p><strong>為什麼步數錶面組件不是即時更新的？</strong><br>
+    Apple Watch 的錶面組件旨在平衡效能與電池續航力。Apple 明確指出：<em>「組件並非針對即時數據而設計。」</em> 因此，步數會在全天定期重新整理，而非每走一步就更新。開啟應用程式將強制立即更新數據。</p>
+</div>
 
-<p><strong>步數追蹤如何運作？</strong><br>
-此應用透過 Apple 健康讀取步數資料。請確認已授權健康資料存取。若需持續追蹤步數目標，請勿強制關閉應用程式，否則 iOS 可能會暫停背景更新。</p>
+<div class="faq-item">
+    <p><strong>我的資料是安全的嗎？</strong><br>
+    是的。所有健身資料僅保存在你的裝置中，不會與第三方分享，除非你選擇將年度回顧分享到社群媒體。</p>
+</div>
+
+<div class="faq-item">
+    <p><strong>步數追蹤如何運作？</strong><br>
+    此應用透過 Apple 健康讀取步數資料。請確認已授權健康資料存取。若需持續追蹤步數目標，請勿強制關閉應用程式，否則 iOS 可能會暫停背景更新。</p>
+</div>
 
 <hr>
 
-<!-- ================= 日本語 ================= -->
 <h2>日本語</h2>
 
 <p>My Fitness Recap をご利用いただきありがとうございます。ご質問やお困りごとがあれば、お気軽にご連絡ください。</p>
@@ -117,11 +143,20 @@ The app reads step data from Apple Health. Please ensure Health permissions are 
 
 <h3>❓ よくある質問</h3>
 
-<p><strong>データは安全ですか？</strong><br>
-はい。すべてのフィットネスデータは端末内に保存され、Year in Review を SNS で共有しない限り、第三者と共有されることはありません。</p>
+<div class="faq-item">
+    <p><strong>なぜ歩数のコンプリケーションはリアルタイムで更新されないのですか？</strong><br>
+    Apple Watch のコンプリケーションは、パフォーマンスとバッテリー寿命のバランスを維持するように設計されています。Apple は明示的に次のように述べています。<em>「コンプリケーションはリアルタイムデータを対象としていません。」</em> そのため、歩数は一歩ごとに更新されるのではなく、一日を通して定期的に更新されます。アプリを開くと、常に最新のデータが強制的に読み込まれます。</p>
+</div>
 
-<p><strong>歩数トラッキングはどのように動作しますか？</strong><br>
-本アプリは Apple ヘルスから歩数データを取得します。ヘルスケアのアクセス許可が有効になっていることを確認してください。継続的に追跡するため、アプリを強制終了しないでください。iOS はバックグラウンド更新を停止する場合があります。</p>
+<div class="faq-item">
+    <p><strong>データは安全ですか？</strong><br>
+    はい。すべてのフィットネスデータは端末内に保存され、Year in Review を SNS で共有しない限り、第三者と共有されることはありません。</p>
+</div>
+
+<div class="faq-item">
+    <p><strong>歩数トラッキングはどのように動作しますか？</strong><br>
+    本アプリは Apple ヘルスから歩数データを取得します。ヘルスケアのアクセス許可が有効になっていることを確認してください。継続的に追跡するため、アプリを強制終了しないでください。iOS はバックグラウンド更新を停止する場合があります。</p>
+</div>
 
 <footer>
     <p><small>© 2025 My Fitness Recap. All rights reserved.</small></p>
